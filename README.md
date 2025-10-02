@@ -1,6 +1,6 @@
-# JAR Client Template
+# JAR API Generate Template
 
-This is a template repository for Java Client projects. The idea is to copy this repository when creating new Java Client projects. Or just as an example of a client, when we need to generate a client inside an application.
+This template shows how to generate code from an API. Typically to create a client or to create a server by implementing generated interfaces.
 
 ## Gradle
 
