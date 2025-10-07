@@ -21,6 +21,7 @@ apply plugin: "se.fk.gradle.bundle-jar"
 apply plugin: "se.fk.gradle.openapi-generate"
 
 fkOpenApiGenerate {
+	// Name of the generator to use, see https://openapi-generator.tech/docs/generators
 	generatorName.set("spring")
 	openapiDependencies.set([
 		"se.fk.gradle.examples:template-api:1.1.0"
