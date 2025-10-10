@@ -6,8 +6,8 @@ buildscript {
 	maven {
 	  url = uri("https://maven.pkg.github.com/Forsakringskassan/repository")
 	  credentials {
-        username = project.findProperty("GITHUB_ACTOR") ?: System.getenv("GITHUB_ACTOR")
-        password = project.findProperty("GITHUB_TOKEN") ?: System.getenv("GITHUB_TOKEN")
+        username = project.findProperty("GITHUB_ACTOR") ?: System.getenv("PACKAGES_RW_ACTOR")
+        password = project.findProperty("GITHUB_TOKEN") ?: System.getenv("PACKAGES_RW_TOKEN")
 	  }
 	}
   }
@@ -42,8 +42,8 @@ dependencies {
 	implementation "org.springframework:spring-context:6.2.11"
 	implementation "org.springframework.boot:spring-boot-starter-validation:3.5.6"
 
-	compileOnly "org.immutables:value:2.11.4"
-	annotationProcessor "org.immutables:value:2.11.4"
+	compileOnly "org.immutables:value:2.11.6"
+	annotationProcessor "org.immutables:value:2.11.6"
 
 	testImplementation "org.junit.jupiter:junit-jupiter:6.0.0"
 	testImplementation "org.assertj:assertj-core:3.27.6"
