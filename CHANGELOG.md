@@ -1,3 +1,11 @@
+## 0.2.0 (2025-10-10)
+
+### Features
+
+-  publish till gemensamt repo ([343e9](https://github.com/Forsakringskassan/template-jar-api-generate/commit/343e98eefe480f6) Tomas Bjerre)  
+-  publish till gemensamt repo ([aef88](https://github.com/Forsakringskassan/template-jar-api-generate/commit/aef8816e4e1f4f9) Tomas Bjerre)  
+-  publish till gemensamt repo ([9a284](https://github.com/Forsakringskassan/template-jar-api-generate/commit/9a28415e9f01d89) Tomas Bjerre)  
+
 ## 0.1.0 (2025-10-05)
 
 ### Features
