@@ -1,3 +1,9 @@
+## 0.2.1 (2025-10-17)
+
+### Bug Fixes
+
+-  trigger version ([7b818](https://github.com/Forsakringskassan/template-jar-api-generate/commit/7b8188798a019e5) Tomas Bjerre)  
+
 ## Unreleased ()
 
 ## 0.2.0 (2025-10-10)
