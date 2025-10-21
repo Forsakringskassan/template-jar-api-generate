@@ -24,7 +24,7 @@ fkOpenApiGenerate {
 	// Name of the generator to use, see https://openapi-generator.tech/docs/generators
 	generatorName.set("spring")
 	openapiDependencies.set([
-		"se.fk.gradle.examples:template-api:1.6.1"
+		"se.fk.gradle.examples:template-api:1.10.1"
 	])
 	inputSpecFormat.set(InputSpecFormat.YAML)
 }
