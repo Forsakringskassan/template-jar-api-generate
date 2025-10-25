@@ -1,7 +1,7 @@
 package se.fk.template;
 
 import org.junit.jupiter.api.Test;
-import se.fk.template.sefkgradleexamplestemplateapi.generatedsource.model.PingResponse;
+import se.fk.template.sefkgradleexamplestemplateapi.generatedsource.model.OmbudRequest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -11,12 +11,12 @@ class DummyExampleTest
    @Test
    void thingsShouldDoStuff()
    {
-      PingResponse actual = new PingResponse()
-            .pong(true);
+      OmbudRequest actual = new OmbudRequest()
+            .personnummer("123");
 
       assertThat(actual.toString()).isEqualToIgnoringWhitespace("""
-              class PingResponse {
-                  pong: true
+              class OmbudRequest {
+                  personnummer: 123
               }
             """);
    }

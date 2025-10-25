@@ -13,7 +13,7 @@ buildscript {
   }
 
   dependencies {
-    classpath "se.fk.gradle:gradle-conventions:1.14.0"
+    classpath "se.fk.gradle:gradle-conventions:1.17.4"
   }
 }
 
@@ -40,7 +40,7 @@ staticCodeAnalysisExtension {
 dependencies {
 	implementation "org.springframework:spring-web:6.2.12"
 	implementation "org.springframework:spring-context:6.2.12"
-	implementation "org.springframework.boot:spring-boot-starter-validation:3.5.6"
+	implementation "org.springframework.boot:spring-boot-starter-validation:3.5.7"
 
 	compileOnly "org.immutables:value:2.11.6"
 	annotationProcessor "org.immutables:value:2.11.6"
